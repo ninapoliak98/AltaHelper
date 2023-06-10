@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/jszip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.8.0/xlsx.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <title>Alta Helper</title>
+</head>
+    <body>
+    <div class="form__file">
+        <form>
+            <label>Alta File</label>
+            <input type="file" id="alta" accept=".xls, .xlsx">
+            <label>ModivCare File</label>
+            <input type="file" id="modiv" accept=".xls, .xlsx">
+            <button id="submit">Submit</button>
+            <button id="download">Download</button>
+        </form>
+    </div>
+    <label for="json-result">
+        text
+    </label><textarea id="json-result" style="display:none;height:500px;width:350px;"></textarea>
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "AltaHelper",
+  "version": "1.0.0",
+  "dependencies": {
+    "read-excel-file": "^5.6.1"
+  }
+}
