@@ -12,5 +12,10 @@
     <orderEntry type="library" name="read-excel-file" level="application" />
     <orderEntry type="library" name="date-and-time" level="application" />
     <orderEntry type="library" name="moment.js" level="application" />
+    <orderEntry type="library" name="xlsx.full" level="application" />
+    <orderEntry type="library" name="xlsx.zahl" level="application" />
+    <orderEntry type="library" name="xlsx.mini" level="application" />
+    <orderEntry type="library" name="babel-polyfill" level="application" />
+    <orderEntry type="library" name="exceljs" level="application" />
   </component>
 </module>

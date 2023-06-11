@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{date-and-time, moment.js, read-excel-file, xlsx}" />
+    <file url="PROJECT" libraries="{babel-polyfill, date-and-time, exceljs, moment.js, read-excel-file, xlsx, xlsx.full, xlsx.mini, xlsx.zahl}" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>
